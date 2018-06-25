@@ -5,6 +5,12 @@ By: [Vineet Kumar Singh](https://www.twitter.com/viiitdmj)
 **[Current SOTA](https://github.com/sebastianruder/NLP-progress/blob/master/language_modeling.md):  **[Breaking the Softmax Bottleneck: A High-Rank RNN Language Model
 ](https://arxiv.org/pdf/1711.03953.pdf)
 
+[Super Convergence for wikitext2](http://forums.fast.ai/t/super-convergence-ish-on-wikitext-2/17091?u=visingh)
+[How to use use_clr_beta](http://forums.fast.ai/t/using-use-clr-beta-and-new-plotting-tools/14702)
+[Training Phase API](http://forums.fast.ai/t/new-training-schedule-api-in-fastai/15053)
+[Callback system in fastai](http://forums.fast.ai/t/using-the-callback-system-in-fastai/16216)
+
+
 *[Understanding the Mixture of Softmaxes (MoS)](https://smerity.com/articles/2017/mixture_of_softmaxes.html) to understand SOTA*
 
 *Follow up reading: *[Sigsoftmax: Reanalysis of the Softmax Bottleneck](https://arxiv.org/pdf/1805.10829.pdf)
@@ -49,9 +55,13 @@ By: [Vineet Kumar Singh](https://www.twitter.com/viiitdmj)
 - Variational dropout 
     - ```Locked Dropout```
 - Embedding dropout 
+    - [RNN Dropout](https://medium.com/@bingobee01/a-review-of-dropout-as-applied-to-rnns-part-2-4e35ba3a4360)
+    - [Part 1](https://medium.com/@bingobee01/a-review-of-dropout-as-applied-to-rnns-72e79ecd5b7b)
 - Weight tying 
     - [Tying word vectors and word classifiers: A loss framework for language modelling](https://arxiv.org/pdf/1611.01462.pdf)
     - [Using the Output Embedding to Improve Language Models](https://arxiv.org/pdf/1608.05859.pdf)
+    - [Attention blog: maybe good](https://towardsdatascience.com/memory-attention-sequences-37456d271992)
+    - [Using QRNN in Language Models](http://forums.fast.ai/t/using-qrnn-in-language-models/17278)
 - Independent embedding size and hidden size 
 - Activation Regulatization (AR) and Temporal Activation Regulaization (TAR)
 
