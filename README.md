@@ -7,9 +7,12 @@ By: [Vineet Kumar Singh](https://www.twitter.com/viiitdmj)
 
 *[Understanding the Mixture of Softmaxes (MoS)](https://smerity.com/articles/2017/mixture_of_softmaxes.html) to understand SOTA*
 
+*Follow up reading: *[Sigsoftmax: Reanalysis of the Softmax Bottleneck](https://arxiv.org/pdf/1805.10829.pdf)
+
 **Read This: **[On the importance of initiliation and momentum in deep learning](http://www.cs.toronto.edu/~fritz/absps/momentum.pdf)
 
 *Language Modelling dataset: * [wiki-text2 and wikitext-103](https://einstein.ai/research/the-wikitext-long-term-dependency-language-modeling-dataset)
+
 
 *[Easy Latex Draw](http://detexify.kirelabs.org/classify.html)* 
 
