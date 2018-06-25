@@ -2,6 +2,14 @@
 
 By: [Vineet Kumar Singh](https://www.twitter.com/viiitdmj)
 
+[Training RNNS SMerity Slides](https://docs.google.com/presentation/d/1JbF9CgMDQrOHlR8BKO5zX3ykZsZ3ezFUEjwAsaO_NDc/edit#slide=id.p)
+
+[Visualize Attention in RNNS](https://medium.com/datalogue/attention-in-keras-1892773a4f22)
+
+[This Twitter Thread](https://twitter.com/jeremyphoward/status/1011249558586720256)
+
+[Natural Language Decalathon: Salesforce](https://einstein.ai/research/the-natural-language-decathlon)
+
 **[Current SOTA](https://github.com/sebastianruder/NLP-progress/blob/master/language_modeling.md):  **[Breaking the Softmax Bottleneck: A High-Rank RNN Language Model
 ](https://arxiv.org/pdf/1711.03953.pdf)
 
@@ -95,6 +103,8 @@ https://github.com/letsdodatascience/Deep-Learning
 ### 5. Open AI Transformers
 
 [Improving Language Understanding with Unsupe]
+
+### 6. ELMO and GLOMO Allen AI
 
 ## Understand Sequence Labelling Task for NLP
 - [Sample Repo Link](https://t.co/05ZL6bEcoO)
