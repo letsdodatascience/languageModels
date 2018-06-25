@@ -1,9 +1,24 @@
-# Language Models Deep Dive
+# Neural Language Modelling
 
 By: [Vineet Kumar Singh](https://www.twitter.com/viiitdmj)
 
-AWD-LSTM and Neural Cache are recent sota in language modelling task. The [paper](https://github.com/salesforce/awd-lstm-lm) seems to be written well, and has a bunch of cool tricks. We will understand each of those tricks in detal and then move onto 
-[An Analysis of Neural Language Modeling at Multiple Scales](https://arxiv.org/pdf/1803.08240.pdf) and [Quasi-Recurrent Neural Networks: QRNN's](https://arxiv.org/pdf/1611.01576.pdf).
+**[Current SOTA](https://github.com/sebastianruder/NLP-progress/blob/master/language_modeling.md):  **[Breaking the Softmax Bottleneck: A High-Rank RNN Language Model
+](https://arxiv.org/pdf/1711.03953.pdf)
+
+*[Understanding the Mixture of Softmaxes (MoS)](https://smerity.com/articles/2017/mixture_of_softmaxes.html) to understand SOTA*
+
+**Read This: **[On the importance of initiliation and momentum in deep learning](http://www.cs.toronto.edu/~fritz/absps/momentum.pdf)
+
+*Language Modelling dataset: * [wiki-text2 and wikitext-103](https://einstein.ai/research/the-wikitext-long-term-dependency-language-modeling-dataset)
+
+*[Easy Latex Draw](http://detexify.kirelabs.org/classify.html)* 
+
+**Read This: **[Optimizations in 2017](http://ruder.io/deep-learning-optimization-2017/)
+
+*little experiment idea*: [Neural Spell Checkers](http://forums.fast.ai/t/nlp-any-libraries-dictionaries-out-there-for-fixing-common-spelling-errors/16411)
+
+*AWD-LSTM and Neural Cache are recent SOTA in language modelling task* The [AWD-LSTM paper](https://github.com/salesforce/awd-lstm-lm) seems to be written well, and uses a bunch of cool tricks from prior publications. We will understand each of those tricks in detal and then move onto 
+[An Analysis of Neural Language Modeling at Multiple Scales](https://arxiv.org/pdf/1803.08240.pdf), [Improving neural language models with continuous cache](https://arxiv.org/pdf/1612.04426.pdf) and [Quasi-Recurrent Neural Networks: QRNN's](https://arxiv.org/pdf/1611.01576.pdf).
 
 ```Architecture```: Three-layered LSTM model with 1150 units in the hidden state and an embedding size of 400.
 
@@ -32,9 +47,20 @@ AWD-LSTM and Neural Cache are recent sota in language modelling task. The [paper
     - ```Locked Dropout```
 - Embedding dropout 
 - Weight tying 
+    - [Tying word vectors and word classifiers: A loss framework for language modelling](https://arxiv.org/pdf/1611.01462.pdf)
+    - [Using the Output Embedding to Improve Language Models](https://arxiv.org/pdf/1608.05859.pdf)
 - Independent embedding size and hidden size 
 - Activation Regulatization (AR) and Temporal Activation Regulaization (TAR)
 
 ## Continous Cache Pointers 
 [Pointer Cache Models](https://sgugger.github.io/pointer-cache-for-language-model.html#pointer-cache-for-language-model)
 - The neural cache model (Grave et al., 2016) can be added on top of a pre-trained language model at negligible cost. The neural cache stores the previous hidden states in memory cells and then uses a simple convex combination of the probability distributions suggested by the cache and the language model for prediction. The cache model has three hyperparameters: the memory size (window) for the cache, the coefficient of the combination (which determines how the two distributions are mixed), and the flatness of the cache distribution. All of these are tuned on the validation set once a trained language model has been obtained and require no training by themselves, making it quite inexpensive to use. 
+
+
+### 4. ULMFIT
+
+### 5. Open AI Transformers
+
+
+## Understand Sequence Labelling Task for NLP
+- [Sample Repo Link](https://t.co/05ZL6bEcoO)
