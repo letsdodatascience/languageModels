@@ -6,9 +6,26 @@ By: [Vineet Kumar Singh](https://www.twitter.com/viiitdmj)
 ](https://arxiv.org/pdf/1711.03953.pdf)
 
 [Super Convergence for wikitext2](http://forums.fast.ai/t/super-convergence-ish-on-wikitext-2/17091?u=visingh)
+
+
 [How to use use_clr_beta](http://forums.fast.ai/t/using-use-clr-beta-and-new-plotting-tools/14702)
+
+
 [Training Phase API](http://forums.fast.ai/t/new-training-schedule-api-in-fastai/15053)
+
+
 [Callback system in fastai](http://forums.fast.ai/t/using-the-callback-system-in-fastai/16216)
+
+[use_clr](http://forums.fast.ai/t/understanding-use-clr/13969)
+
+[Discussion on lrf for wikitext](http://forums.fast.ai/t/how-do-i-interpret-this-lr-graph-wikitext103/18171/5)
+
+Validate: ```As for the 1cycle, it’s use_clr_beta you should use, and (50,15,0.95,0.85) doesn’t seem weird to me for an argument.```
+
+http://forums.fast.ai/t/the-1cycle-policy-an-experiment-that-investigate-super-convergence-phenomenon-described-in-leslie-smiths-research/14737
+
+
+https://github.com/letsdodatascience/Deep-Learning
 
 
 *[Understanding the Mixture of Softmaxes (MoS)](https://smerity.com/articles/2017/mixture_of_softmaxes.html) to understand SOTA*
