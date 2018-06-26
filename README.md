@@ -102,9 +102,29 @@ https://github.com/letsdodatascience/Deep-Learning
 
 ### 5. Open AI Transformers
 
-[Improving Language Understanding with Unsupe]
+[Improving Language Understanding with Unsupevised Learning](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
 
 ### 6. ELMO and GLOMO Allen AI
 
+[ELMO: Deep contextualized word representations](Deep contextualized word representations)
+
 ## Understand Sequence Labelling Task for NLP
 - [Sample Repo Link](https://t.co/05ZL6bEcoO)
+
+
+```===========================================================================================```
+Hello World 
+
+### Dataset
+
+### Architecture 
+
+### Loss 
+
+```===========================================================================================```
+
+[Dynamic Evaluation of Neural Sequence Models](https://arxiv.org/abs/1709.07432)
+
+[Breaking the Softmax Bottleneck: A High-Rank RNN Language Model](https://arxiv.org/abs/1711.03953)
+
+[Zipf's Law](https://simple.wikipedia.org/wiki/Zipf%27s_law)
