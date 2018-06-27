@@ -2,6 +2,10 @@
 
 By: [Vineet Kumar Singh](https://www.twitter.com/viiitdmj)
 
+How do i make this https://www.youtube.com/watch?v=VnFC-s2nOtI
+
+
+
 [Training RNNS SMerity Slides](https://docs.google.com/presentation/d/1JbF9CgMDQrOHlR8BKO5zX3ykZsZ3ezFUEjwAsaO_NDc/edit#slide=id.p)
 
 [Visualize Attention in RNNS](https://medium.com/datalogue/attention-in-keras-1892773a4f22)
