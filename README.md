@@ -65,6 +65,9 @@ https://github.com/letsdodatascience/Deep-Learning
     - [Attention and Memory in Deep Learning Networks](https://www.youtube.com/watch?v=uuPZFWJ-4bE&t=1261s9)
     - [Original Atention Paper](https://arxiv.org/abs/1409.0473)
     - [Google's NMT](https://arxiv.org/abs/1609.08144v2)
+    - [Transformer Google Brain](https://www.youtube.com/watch?v=rBCqOTEfxvg)
+    - [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
+    - [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
 
 ## Neural language model regularization techniques 
 
