@@ -4,7 +4,7 @@ By: [Vineet Kumar Singh](https://www.twitter.com/viiitdmj)
 
 How do i make this https://www.youtube.com/watch?v=VnFC-s2nOtI
 
-
+[Deep Forecast: Will it rain](http://simaaron.github.io/)
 
 [Training RNNS SMerity Slides](https://docs.google.com/presentation/d/1JbF9CgMDQrOHlR8BKO5zX3ykZsZ3ezFUEjwAsaO_NDc/edit#slide=id.p)
 
